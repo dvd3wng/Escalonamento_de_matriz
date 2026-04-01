@@ -66,8 +66,7 @@ void escalonar_matriz(int i_max, int j_max, float matriz[i_max][j_max]){
         }
         for (int next = i + 1; next < i_max; next++)
             if (matriz[next][j] != 0)
-                pivotear
-            (j_max, matriz[i], matriz[next], i);
+                pivotear(j_max, matriz[i], matriz[next], i);
         j++;
     }
 }
