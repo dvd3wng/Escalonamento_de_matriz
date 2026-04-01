@@ -10,10 +10,13 @@ void printar_matriz(int i_max, int j_max, float matriz[i_max][j_max]);
 //vai verificar caso a matriz inteira seja nula ou nao
 int matriz_nula(int i_max, int j_max, float matriz[i_max][j_max]);
 
+//troca de lugar as duas linhas dadas como parametro
 void troca_linha(int j_max, float L1[j_max], float L2[j_max]);
 
+//efetuar as operacoes necessarias entre as duas linhas
 void pivotear(int j_max, float L1[j_max], float L2[j_max], int casa_pivo);
 
+//funcao para escalonar a matriz
 void escalonar_matriz(int i_max, int j_max, float matriz[i_max][j_max]);
 
 #endif
